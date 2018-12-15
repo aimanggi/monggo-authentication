@@ -1,0 +1,121 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+#container{
+  font-family: "Scada, sans-serif";
+}
+
+ul.topnav{
+  list-style-type: none;
+  background: linear-gradient(45deg, #0A3565 0%, #1782D9 100%);
+  box-shadow: 0 10px 20px 0 rgba(0,0,0,0.1);
+  position: sticky;
+}
+
+li{
+  text-align: center;
+}
+
+a{
+  display: block;
+  text-decoration: none;
+  color: #F4FAFF;
+  padding: 15px;
+}
+
+ a:hover{
+    background-color: #1782D9;
+    color: #F4FAFF;
+  }
+
+/* ---- Login link ---- */
+ul.topnav .button{
+  margin-left:auto;
+  margin-right:20px;
+}
+
+ul.topnav .button:first-child{
+  margin-left: 20px;
+}
+ul.topnav .BTN1 {    
+  outline:none;
+  cursor:pointer;
+  border-radius:20px;
+  font-family: "Scada, sans-serif";
+  font-size: 15px;
+  color: #e1e1e1;
+  background-color:transparent;
+  border:2px solid #F5FAFF;
+  display: inline;
+  padding: 4px 28px;
+}
+
+ul.topnav .BTN1:hover {   
+  transition: all 0.5s ease-in-out;
+  background-color:rgb(0, 108, 197);
+}
+
+
+ul.button {
+  float: right;
+  margin-right: 12px;
+  margin-top: 20px;
+}
+
+ /* ---- Dropdown menu ---- */
+
+ul.dropDown{
+  display: none;
+  width: 100%;
+  background-color: #cdcdcd;
+}
+
+.greet {
+  color: #F4FAFF
+}
+
+
+
+
+@media only screen and (min-width: 400px){
+  ul{
+    position: relative;
+  }
+  ul li{
+    display: inline-block;
+  }
+
+  a{
+    display: inline-block;
+  }
+  
+
+  /* ---- Login link ---- */
+
+  ul li:last-child{
+    float: right;
+    margin-top: 25px;
+  }
+
+  // ul li .button:first-child{
+   
+  // }
+   /* ---- Dropdown menu ---- */
+  ul.dropDown{
+    width: auto;
+    position: absolute;
+    
+  }
+  
+  .dropDown li{
+    display: block;
+    text-align: left;
+  }
+  
+  .dropDown a{
+    display: block;
+  }
+   
+}

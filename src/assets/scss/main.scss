@@ -1,0 +1,33 @@
+@import
+  '~bootstrap/scss/bootstrap';
+
+//import variabel
+
+@import
+  'base/variable';
+
+//import komponen
+@import
+  'components/button/lihat-detail',
+  'components/button/lihat-investasi',
+  
+  'components/navbar-footer/footer',
+  'components/navbar-footer/navbar',
+
+  'components/page/landing-page/cara-kerja',
+  'components/page/landing-page/terpopuler',
+  'components/page/landing-page/slideshow',
+  'components/page/landing-page/not_found',
+
+  'components/page/auth/login',
+  'components/page/auth/signup',
+ 
+  'components/page/auth/email-link',
+  'components/page/auth/change-pass',
+
+  'components/page/product-invest/cardboardproduct',
+  'components/page/product-invest/pagination';
+
+//import layout
+@import
+  'layout/grid';
